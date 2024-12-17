@@ -39,6 +39,7 @@ From the above characteristic table, we can directly write the next state equati
 5.For different input combinations generate the timing diagram.
 ```
 **PROGRAM**
+```
  Developed by:HSHINI R
  RegisterNumber:24900728
 module exp8(T,clk,Q,Qbar);
@@ -53,13 +54,15 @@ Q=(T&(~Q))|((~T)&Q);
 Qbar=~Q;
 end
 endmodule
-
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
+
 ![Screenshot 2024-12-17 134835](https://github.com/user-attachments/assets/a0306e61-c8a1-4fef-85d5-105bb02291c9)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
+
 ![Screenshot 2024-12-17 134858](https://github.com/user-attachments/assets/6fab6d32-576d-46b1-ac1d-3eedf17a4fdb)
 
 
